@@ -2,6 +2,6 @@
 
 ### > npm version major
 
-# Stylelint Setup 
+# Stylelint Setup
 
 ### > npm init stylelint
