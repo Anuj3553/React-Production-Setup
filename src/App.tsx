@@ -1,9 +1,5 @@
 function App() {
-  return (
-    <div>
-      <h1>React Production Setup</h1>
-    </div>
-  )
+    return <div>React Production Setup</div>
 }
 
 export default App
