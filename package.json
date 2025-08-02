@@ -10,10 +10,14 @@
         "format:fix": "prettier --write .",
         "lint:stylelint": "stylelint **/*.css",
         "dev": "vite --mode development",
+        "test": "vitest --mode test",
         "build": "tsc -b && vite build --mode production",
         "preview": "vite preview --mode production"
     },
     "dependencies": {
+        "@testing-library/jest-dom": "^6.6.4",
+        "@testing-library/react": "^16.3.0",
+        "jsdom": "^26.1.0",
         "react": "^19.1.0",
         "react-dom": "^19.1.0",
         "tailwindcss": "^4.1.11"
@@ -39,6 +43,7 @@
         "stylelint-config-tailwindcss": "^1.0.0",
         "typescript": "~5.8.3",
         "typescript-eslint": "^8.35.1",
-        "vite": "^7.0.4"
+        "vite": "^7.0.4",
+        "vitest": "^3.2.4"
     }
 }
